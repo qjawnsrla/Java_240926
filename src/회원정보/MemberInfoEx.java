@@ -20,6 +20,7 @@ public class MemberInfoEx {
         member.setJob();
         member.getInfo();
 
+
         // 회원의 이름 확인
         member.getName();
         System.out.println("회원의 이름 : " + member.getName());
