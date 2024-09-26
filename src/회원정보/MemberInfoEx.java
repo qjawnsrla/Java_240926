@@ -13,7 +13,7 @@ package 회원정보;
 public class MemberInfoEx {
     public static void main(String[] args) {
         // Member 클래스에 대한 객체를 생성하기 위해 기본 생성자 호출
-        Member member = new Member();
+        Member member = new Member();   // new 로 선언하면서 힙영역에 메모리 확보
         member.setName();
         member.setAge();
         member.setGender();
